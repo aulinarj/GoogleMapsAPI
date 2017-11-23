@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     }
 
     private void flyTo(CameraPosition target) {
-        m_map.animateCamera(CameraUpdateFactory.newCameraPosition(target));
+        m_map.moveCamera(CameraUpdateFactory.newCameraPosition(target));
     }
 
     @Override
